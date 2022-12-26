@@ -5,9 +5,9 @@
 **NPM:** [Math Utilities](https://www.npmjs.com/package/@nooxbr/math-utilities)
 
 
-## Updates 1.1.3
+## Updates 1.1.8
 
-- **Changed abrev to ab!**
+- **Added separate function**
 
 
 ## Abbreviate:
