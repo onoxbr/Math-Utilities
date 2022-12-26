@@ -8,9 +8,15 @@ function abbreviateNumber(number, precision=2) {
     return number < 1000 ? ''+number : (calc.indexOf('.') === calc.length-3 ? calc.replace(/\.00/, '') : calc)+suffsFromZeros[divDigits]
   }
 
+function randomNumber(number1, number2){
+    const n = Math.floor(Math.random() * number2) + number1
+
+    return n
+}
+
 function separateNumber(number){
-    const n = number
-    n.toLocaleString()
+    const n = number.toLocaleString()
+    return n
 }
 
 
@@ -25,6 +31,7 @@ module.exports = {
      */
 
     ab: abbreviateNumber,
+    randomNumber: randomNumber,
     separate: separateNumber,
 
 }

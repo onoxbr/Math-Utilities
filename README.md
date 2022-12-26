@@ -5,9 +5,13 @@
 **NPM:** [Math Utilities](https://www.npmjs.com/package/@nooxbr/math-utilities)
 
 
-## Updates 1.1.8
+## Update 1.1.9
 
-- **Added separate function**
+- **Added random number function**
+
+## Update 1.2
+- **Added separate number function**
+- **Fixed random number**
 
 
 ## Abbreviate:
@@ -19,10 +23,15 @@ const mu = require("@nooxbr/math-utilities")
 
 mu.ab(3500) [3.5k]
 
-## Separate Numbers
+## Random Number
 const mu = require("@nooxbr/math-utilities")
 
-mu.separate(3500) [3,500]
+mu.randomNumber(1, 5) [Returns a random integer from 1 to 5]
+
+## Separate number
+const mu = require("@nooxbr/math-utilities")
+
+mu.separate(1000) [1,500]
 
 
 ## Credits:
